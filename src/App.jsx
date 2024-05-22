@@ -3,16 +3,17 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Header from "./Header";
+import Section from "./Section";
 
 function App() {
   return (
     <div className="app">
       <Header reactLogo={reactLogo} viteLogo={viteLogo} />
 
-      <main className="main">
-        <p>1/15</p>
+      <Section>
+        <h1>1/15</h1>
         <p>Question?</p>
-      </main>
+      </Section>
     </div>
   );
 }
